@@ -1,0 +1,35 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+/* style the main container */ 
+#container {
+	display: flex;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* styles for the inner-container */
+#inner-container {
+	min-width: 300px;
+	border: 1px solid black;
+	height: 500px;
+	padding: 25px 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
