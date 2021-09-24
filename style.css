@@ -11,7 +11,7 @@ body {
 /* style the main container */ 
 #container {
 	display: flex;
-	height: 100%;
+	height: calc(100% - 60px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +19,7 @@ body {
 
 /* styles for the inner-container */
 #inner-container {
-	min-width: 300px;
+	width: 600px;
 	border: 1px solid black;
 	height: 50%;
 	padding: 25px 35px;
@@ -33,3 +33,33 @@ h1 {
 	margin-bottom: 50px;
 }
 
+#side-container {
+	padding: 250px;
+}
+
+select {
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	background : linear-gradient(to left, #ffffff, #737373);
+	text-transform: capitalize;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+
+footer {
+	background : linear-gradient(to bottom, #c19f9f, #b5e5ee);
+	font-weight: bolder;
+	text-align: center;
+	height: 40px;
+	padding-top: 20px;
+	font-size: 1.2rem;
+}
+
+a {
+	margin-left: 10px;
+}
+
+a:active {
+	color: black;
+}
